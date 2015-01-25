@@ -2,10 +2,25 @@ validate xsd
 ===
 Example for the usage of PyXB in Django to validate XML docs from XSD
 
-Generated wadl.py via pyxbgen -u wadl.xsd -m wadl
 
-The source code follows initialy ideas set out in a blog by [Robert Newman](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/)
+Install
+---
 
+   virtualenv env
+   source env/bin/activate
+   pip install -f requirements.txt
+
+Run
+---
+   python manage.py check
+   python manage.py migrate
+   python manage.py makemigrations
+
+If you like to newly generate dwml.py, run in webservicedocs the following command:
+
+   pyxbgen -u DWML.xsd -m dwml
+
+Remarks: The source code follows initialy ideas set out in a blog by [Robert Newman](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/)
 
 
 Copyright (C) 2015 Peter Rosemann
