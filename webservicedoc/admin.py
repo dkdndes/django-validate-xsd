@@ -1,10 +1,13 @@
 from django.contrib import admin
-from forms import MyWebservicedocAdminForm
+from forms import WebservicedocAdminForm
+from models import Webservicedoc
 
-"""
-Customize Admin
-"""
+
 class WebservicedocAdmin(admin.ModelAdmin):
-    form = MyWebservicedocAdminForm
+    """Customize WebservicedocAdmin
+    """
+    form = WebservicedocAdminForm
     save_as = True
-    # lots more unrelated custom admin such as field definitions
+
+
+admin.site.register(Webservicedoc, WebservicedocAdmin)
