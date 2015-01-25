@@ -1,7 +1,7 @@
 # ./wadl.py
 # -*- coding: utf-8 -*-
 # PyXB bindings for NM:05f5b6da780284c094d893a53505b7c6c26136a6
-# Generated 2015-01-25 18:44:14.947987 by PyXB version 1.2.4 using Python 2.7.9.final.0
+# Generated 2015-01-25 18:46:52.842133 by PyXB version 1.2.4 using Python 2.7.9.final.0
 # Namespace http://wadl.dev.java.net/2009/02
 
 from __future__ import unicode_literals
@@ -15,7 +15,7 @@ import sys
 import pyxb.utils.six as _six
 
 # Unique identifier for bindings created at the same time
-_GenerationUID = pyxb.utils.utility.UniqueIdentifier('urn:uuid:c75d16f8-a4b9-11e4-b702-6c4008b819d2')
+_GenerationUID = pyxb.utils.utility.UniqueIdentifier('urn:uuid:257b82f5-a4ba-11e4-8cd2-6c4008b819d2')
 
 # Version of PyXB used to generate the bindings
 _PyXBVersion = '1.2.4'
@@ -161,15 +161,15 @@ class Method (pyxb.binding.basis.STD_union):
     _Documentation = None
 
     _MemberTypes = ( HTTPMethods, pyxb.binding.datatypes.NMTOKEN, )
-Method._CF_pattern = pyxb.binding.facets.CF_pattern()
 Method._CF_enumeration = pyxb.binding.facets.CF_enumeration(value_datatype=Method)
+Method._CF_pattern = pyxb.binding.facets.CF_pattern()
 Method.GET = 'GET'                                # originally HTTPMethods.GET
 Method.POST = 'POST'                              # originally HTTPMethods.POST
 Method.PUT = 'PUT'                                # originally HTTPMethods.PUT
 Method.HEAD = 'HEAD'                              # originally HTTPMethods.HEAD
 Method.DELETE = 'DELETE'                          # originally HTTPMethods.DELETE
-Method._InitializeFacetMap(Method._CF_pattern,
-   Method._CF_enumeration)
+Method._InitializeFacetMap(Method._CF_enumeration,
+   Method._CF_pattern)
 Namespace.addCategoryObject('typeBinding', 'Method', Method)
 
 # Complex type [anonymous] with content type ELEMENT_ONLY
