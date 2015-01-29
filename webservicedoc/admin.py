@@ -7,7 +7,7 @@ class WebservicedocAdmin(admin.ModelAdmin):
     """Customize WebservicedocAdmin
     """
     form = WebservicedocAdminForm
-    fields = ('dwml_raw',)
+    fields = ('wadl_raw',)
     save_as = True
 
 
