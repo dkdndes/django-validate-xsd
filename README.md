@@ -22,6 +22,7 @@ If you like to newly generate dwml.py, run in webservicedocs the following comma
 
 Remarks: The source code follows initialy ideas set out in a blog by [Robert Newman](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/)
 
+If you are new to the subject, I suggest reading the blog: [Thomas Nurkiewic](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 
 Copyright (C) 2015 Peter Rosemann
 
