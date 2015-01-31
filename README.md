@@ -1,24 +1,30 @@
 validate xsd
 ===
 
-Example for the usage of PyXB and Django to generate a generic "wadl.py" file for the validation of "wadl.xml" documents. 
+Example for the usage of PyXB and Django to generate a generic "wadl.py" file for the validation of related "wadl.xml" documents via django. In this example I use the po.xsd file as a basis for the wadl.py file. The po.xml file is then checked via the webservice admin interface in the django example.
 
 Install
 -------
-	virtualenv env
-	source env/bin/activate
-	pip install -f requirements.txt
+* virtualenv env
+* source env/bin/activate
+* pip install -f requirements.txt
 
 Run
 ---
-	python manage.py check 
-	python manage.py migrate 
-	python manage.py makemigrations
-	python manage.py runserver 0:8000
+* python manage.py check 
+* python manage.py migrate 
+* python manage.py makemigrations
+* python manage.py runserver 0:8000
 
 You can regenerate a new "wadl.py" within the "webservicedocs" directory with the following command:
 
-	pyxbgen -u wadl.xsd -m wadl
+* pyxbgen -u po.xsd -m wadl
+
+Now you are able to take po.xml and add it in the admin enty and see what happens if you change the tags, etc. You find more xsd/xml examples in the pyxb source code on githut
+
+Why wadl.xsd currently does not work I try to figure out, same with fmpl. The fpml has a issue with the "root" element. That is know since 2006 and somehow they cant be ask to fix it. I'll update the example when I know more. I appritiate if you like to help. Its a fun subject to work with, just no a lot of examples exists. 
+
+Have fun!
 
 Remarks: The source code follows initialy ideas set out in a blog by [Robert Newman](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/)
 
