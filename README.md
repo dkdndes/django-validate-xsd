@@ -5,6 +5,8 @@ Example for the usage of PyXB and Django to generate a generic "wadl.py" file fo
 
 Install
 -------
+* git clone https://github.com/dkdndes/validatexsd.git
+* cd validatexsd
 * virtualenv env
 * source env/bin/activate
 * pip install -f requirements.txt
