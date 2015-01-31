@@ -20,7 +20,7 @@ You can regenerate a new "wadl.py" within the "webservicedocs" directory with th
 
 * pyxbgen -u po.xsd -m wadl
 
-Now you are able to take po.xml and add it in the admin enty and see what happens if you change the tags, etc. You find more xsd/xml examples in the pyxb source code on githut
+Now you are able to take po.xml and add it in the admin entry and see what happens if you change the tags, etc. You find more xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
 
 Why wadl.xsd currently does not work I try to figure out, same with fmpl. The fpml has a issue with the "root" element. That is know since 2006 and somehow they cant be ask to fix it. I'll update the example when I know more. I appritiate if you like to help. Its a fun subject to work with, just no a lot of examples exists. 
 
