@@ -1,7 +1,7 @@
-validate xsd
+Validate XSD - XML Schema
 ===
 
-Example for the usage of PyXB and Django to generate a generic "wadl.py" file for the validation of related "wadl.xml" documents via django. In this example I use the po.xsd file as a basis for the wadl.py file. The po.xml file is then checked via the webservice admin interface in the django example.
+Example for the usage of PyXB and Django to generate a generic "wadl.py" file for the validation of related "wadl.xml" documents via django. In this example I use the po.xsd file as a basis for the generated "wadl.py" file. The "po.xml" file will be checked via our webservice admin interface.
 
 Install
 -------
@@ -18,13 +18,13 @@ Run
 * python manage.py makemigrations
 * python manage.py runserver 0:8000
 
-You can regenerate a new "wadl.py" within the "webservicedocs" directory with the following command:
+You can regenerate a alternative "wadl.py" fiel within the "webservicedocs" directory with the following command:
 
 * pyxbgen -u po.xsd -m wadl
 
-Now you are able to take po.xml and add it in the admin entry and see what happens if you change the tags, etc. You find more xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
+Now you are able to take "po.xml" and add it the contents in the admin entry. check out what happens if you change the tags, etc. 
 
-Why wadl.xsd currently does not work I try to figure out, same with fmpl. The fpml has an issue with the "root" element. If I can beleive the google entries, that is known since 2006 and somehow they cant be ask to fix it. I'll update the example when I know more. I appritiate if you like to help. Its a fun subject to work with, just not a lot of examples exist. 
+You find more xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
 
 Have fun!
 
