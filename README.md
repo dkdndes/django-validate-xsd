@@ -24,9 +24,9 @@ Run
 
 You can regenerate a alternative "wadl.py" fiel within the "webservicedocs" directory with the following command:
 
-* pyxbgen -u po.xsd -m wadl
+* pyxbgen -u wadl.xsd -m wadl
 
-Now you are able to take "po.xml" and add it the contents in the admin entry. check out what happens if you change the tags, etc. 
+Now you are able to take "wadl.xml" and add it the contents in the admin entry. check out what happens if you change the tags, etc. 
 
 You find more xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
 
