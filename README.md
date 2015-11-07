@@ -3,7 +3,7 @@ Validate XSD - XML Schema
 
 Example for the usage of PyXB and Django.
 
-We use PyXB to generate a generic "wadl.py" file for the validation of related "wadl.xml" documents via django. 
+We use PyXB to generate a generic "wadl.py" file for the XML Schema validation of related XML file "wadl.xml" documents via django. 
 
 Basis for the validation is the XML Schema described in "wadl.xsd". It functions as our basis for the generated "wadl.py" file. And then "po.xml" files can be entered and checked in our webservice admin interface.
 
@@ -26,9 +26,9 @@ You can regenerate a alternative "wadl.py" fiel within the "webservicedocs" dire
 
 * pyxbgen -u wadl.xsd -m wadl
 
-Now you are able to take "wadl.xml" and add it the contents in the admin entry. check out what happens if you change the tags, etc. 
+Now test it with a valid XML file "wadl.xml" and start changing tags, etc. 
 
-You find more xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
+You find xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
 
 Have fun!
 
