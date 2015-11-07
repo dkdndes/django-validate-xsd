@@ -5,7 +5,7 @@ Example for the usage of PyXB and Django.
 
 We use PyXB to generate a generic "wadl.py" file for the validation of related "wadl.xml" documents via django. 
 
-Basis for the validation is the XML Schema described in "po.xsd". It functions as our basis for the generated "wadl.py" file. And then "po.xml" files can be entered and checked in our webservice admin interface.
+Basis for the validation is the XML Schema described in "wadl.xsd". It functions as our basis for the generated "wadl.py" file. And then "po.xml" files can be entered and checked in our webservice admin interface.
 
 Install
 -------
