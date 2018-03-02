@@ -31,7 +31,7 @@ You can regenerate a alternative "wadl.py" fiel within the "webservicedocs" dire
 
 Now test it with a valid XML file "wadl.xml" and start changing tags, etc. 
 
-You find xsd/xml examples in the [pyxb source code on githut](https://github.com/pabigot/pyxb/)
+You find xsd/xml examples in the [pyxb repository](https://github.com/pabigot/pyxb/tree/next/examples)
 
 Have fun!
 
