@@ -1,7 +1,9 @@
 Validate XSD - XML Schema
 ===
 
-Example for the usage of PyXB and Django.
+Example for the usage of PyXB and Django. 
+
+If you are new to the subject of XSD, WADL and XML, I suggest reading the blog: [Thomas Nurkiewic, 2012](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 
 XSD to WADL
 -----------
@@ -36,8 +38,6 @@ You find xsd/xml examples in the [pyxb repository](https://github.com/pabigot/py
 Have fun!
 
 Remarks: The source code follows initialy ideas set out in a blog by Robert Newman ([now offline](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/))
-
-If you are new to the subject, I suggest reading the blog: [Thomas Nurkiewic, 2012](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 
 Copyright (C) 2015 Peter Rosemann
 
