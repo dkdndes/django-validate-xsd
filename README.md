@@ -35,7 +35,7 @@ You find xsd/xml examples in the [pyxb source code on githut](https://github.com
 
 Have fun!
 
-Remarks: The source code follows initialy ideas set out in a blog by Robert Newman [now offline](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/)
+Remarks: The source code follows initialy ideas set out in a blog by Robert Newman ([now offline](http://www.robertnewmanconsulting.com/blog/2013/apr/03/using-pyxb-django-validate-xml-docs-xsd-schemas/))
 
 If you are new to the subject, I suggest reading the blog: [Thomas Nurkiewic, 2012](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 
